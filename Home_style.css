@@ -85,7 +85,7 @@ button:hover{
 button:active{
     background-color: rgb(47, 153, 153);
 }
-p{
+.paragraph_content_1{
     margin: 80px;
     font-size: 28px;
     color: #485667;
@@ -120,4 +120,57 @@ p{
 h1{
     color: #FFFFFF;
     float:top ;
+}
+
+footer{
+    height: 400px;
+    background-color: rgb(76, 66, 53);
+    width: 100%;
+    position: relative;
+   
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: 357px 357px 357px;
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+
+}
+
+.footer_item{
+    text-align: center;
+    
+}
+
+.footer_menu{
+    line-height: 3;
+    text-decoration: none;
+}
+
+.footer_menu_link{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.footer_menu_link:hover{
+    cursor: pointer;
+    color: beige;
+    
+}
+
+.follow_us_logo{
+    width: 10%;
+    margin: 4px;
+}
+
+.follow_us_logo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.edit_color{
+    color: #FFFFFF;
 }
