@@ -1,0 +1,94 @@
+.short_course_bgd{
+    width: 80%;
+    height: 300px;
+    margin-left: 150px;
+    position: relative;
+}
+.short_course_text{
+    position: absolute;
+    top: 130px;
+    left: 600px;
+    z-index: 1;
+}
+.little_nav_buttons_container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 80%;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 100px;
+    column-gap: 30px;
+    justify-content: center;
+}
+.little_nav_buttons{
+    background-color: lightgrey;
+    border-radius: 9px;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+}
+.little_nav_buttons:hover{
+    background-color: rgb(220, 203, 112);
+}
+.small_text{
+    font-family: sans-serif;
+    color: rgb(73, 71, 71);
+}
+.little_info_container{
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+
+.little_info_container_1{
+    width: 80%;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns:400px 400px ;
+    grid-template-rows: auto;
+    column-gap: 180px;
+}
+.expert_instructor{
+    width: 45px;
+    margin-left: 50px;
+}
+.certification{
+    width: 30px;
+    margin-left: 50px;
+}
+
+.courses_container{
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 150px;
+   
+    display: grid;
+    grid-template-columns: 520px 520px;
+    grid-template-rows: 400px 400px;
+    gap: 20px;
+}
+.course{
+    border: 2px solid black;
+    outline: 20px solid lightblue;
+    text-align: center;
+    padding: 25px;
+    font-family: sans-serif;
+    color: rgb(55, 10, 96);
+}
+#item_1:hover,:focus{
+    
+    background-image: url("cyber.cms");
+    height: 340px;
+    
+}
+#item_2:hover,:focus{
+    background-image: url("Cisco.jpg");
+}
+#item_3:hover,:focus{
+    background-image: url("Mobile\ App\ Dev.jpg");
+}
+#item_4:hover,:focus{
+    background-image: url("web.jpg");
+    
+}
