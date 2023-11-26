@@ -40,17 +40,34 @@ header{
     
 }
 
+
 #img1{
     margin: 8px;
+}
+#img1:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
 #img2{
     margin: 8px;
 }
+#img2:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 #img3{
     margin: 8px;
 }
+#img3:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
 #img4{
     margin: 8px;
+}
+#img4:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .navbar{
@@ -62,7 +79,7 @@ header{
 #contact{
     margin-right: 0%;
     margin-left: 2px;
-    width: 210px;
+    width: 194px;
     position: absolute;
 }
 
@@ -102,6 +119,7 @@ button:active{
     display: flex;
     justify-content: center;
     padding: 100px;
+    margin-bottom: 150px;
 }
 
 .item{
@@ -110,6 +128,7 @@ button:active{
     margin: 15px;
     padding: 30px;
     text-align: center;
+    
 }
 
 .item:hover{
@@ -173,4 +192,8 @@ footer{
 }
 .edit_color{
     color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 12, 128);
 }

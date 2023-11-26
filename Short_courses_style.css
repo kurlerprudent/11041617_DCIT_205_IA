@@ -20,6 +20,14 @@
     grid-template-rows: 100px;
     column-gap: 30px;
     justify-content: center;
+    animation-name: ani;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes ani {
+    from{margin-left: -400px;}
+    to{margin-left: 151px;}
 }
 .little_nav_buttons{
     background-color: lightgrey;
@@ -27,6 +35,7 @@
     padding: 30px;
     color: white;
     font-size: 18px;
+   
 }
 .little_nav_buttons:hover{
     background-color: rgb(220, 203, 112);

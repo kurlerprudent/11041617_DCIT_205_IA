@@ -2,9 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-html{
-    height: 3000px;
-}
 
 .nav_bar{
     background-color: rgb(220, 217, 217);
@@ -35,10 +32,11 @@ a{
     margin-left: 100px;
 }
 
-p{
+.about_paragraph_1{
     margin: 80px;
     font-size: 24px;
     font-family: serif;
+    color: rgb(96, 73, 17);
 }
 #cs_img{
     margin-top: 70px;
@@ -62,4 +60,64 @@ aside{
     background-color: black;
     
     grid-area: div;
+}
+.about_container_1{
+    width: 80%;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 495px 495px;
+    grid-template-rows: auto;
+    column-gap: 65px;
+    margin-bottom: 80px;
+
+}
+.about_h4_title{
+    font-size: 32px;
+    color: indigo;
+    margin-left: 20px;
+    animation-name: fast_in;
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+.about_paragraph_2{
+    color: rgb(110, 84, 17);
+    font-size: 19px;
+    line-height: 1.5;
+    animation-name: fast_in;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+video{
+    width: 495px;
+    
+}
+.about_h4_title_2{
+    font-size: 32px;
+    color: indigo;
+    margin-left: 20px;
+    animation-name: fast_in;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+.about_paragraph_3{
+    color: rgb(110, 84, 17);
+    font-size: 19px;
+    line-height: 1.5;
+    animation-name: fast_in;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+@keyframes fast_in {
+    from{ display:none; margin-left: -200px;}
+    to{display: block; margin-right: 0px;}
+}
+@keyframes fast_in_2 {
+    from{margin-bottom: -200px;}
+    to{margin-top: 0px;}
+}
+#community{
+    width: 495px;
+}
+#h3_edit{
+    color: white;
 }
