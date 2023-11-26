@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undergraduate</title>
+    <link rel="stylesheet" href="Contact_style.css">
+    <link rel="stylesheet" href="Short_courses_style.css">
+    <link rel="stylesheet" href="Undergraduate_style.css">
+</head>
+<body>
+    <header class="nav_bar">
+        <h1>Computer science department</h1>
+        <div class="menu"><a href="contact.html">CONTACT</a></div>
+        <div class="menu"><a href="facaulty.html">FACAULTY</a></div>
+        <div class="menu"><a href="events.html">EVENTS</a></div>
+        <div class="menu"><a href="About.html">ABOUT</a></div>
+        <div class="menu"><a href="Home.html">HOME</a></div>
+     </header>
+
+     <div>
+        <img src="light2.jpg"  class="short_course_bgd" >
+        <h1 class="short_course_text">Our Undergraduate Programmes</h1>
+     </div>
+     <div class="little_nav_buttons_container">
+        <div class="little_nav_buttons">Short Courses</div>
+        <div class="little_nav_buttons">Undergraduate programmes</div>
+        <div class="little_nav_buttons">MPhil and Msc programmes</div>
+        <div class="little_nav_buttons">PhD programmes</div>
+     </div>
+     <div class="first_content_container">
+        <div class="first_content">
+            <img src="about-img2.jpeg" class="first_content_img">
+        </div>
+        <div class="first_content">
+            <h3 class="title_edit">
+                Undergraduate degree programmes
+            </h3>
+            <br>
+            <br>
+            <p class="paragraph_edit">
+                The Department offers two undergraduate degree programmes,
+                 Bachelor of Science in Computer Science Single-Major (3:2:1:1)
+                  and Major-Minor (3:2:2:1) as well as Bachelor of Science in 
+                  Information Technology.
+                  <br>
+
+                To qualify for admission into Computer Science programmes at 
+                Level 200, candidates must have taken the following courses at Level 100:
+                    <br>
+                MATH 121: Algebra and Trigonometry
+                MATH 122: Calculus I CSCD 101: Introduction to Computer Science I
+                CSCD 102: Introduction to Computer Science II
+                Every student in the Department of Computer Science must own 
+                his or her laptop with minimum specification of:
+                    <br>
+                i3 64-bit Processor
+                8GB RAM
+                500GB HD or 256 SSD
+            </p>
+        </div>
+     </div>
+     <h3 class="title_edit_2">Undergraduate Computer Science Courses</h3>
+     <div class="second_content_container" >
+        <div class="second_content_items">
+            <h4 onclick="displayTable1()">
+                Level 100
+            </h4>
+            <div id="display_content_2">
+            <table>
+                <tr>
+                    <th>First semester</th>
+                </tr>
+                <tr>
+                    <td>UGRC 150 </td> <td>Critical Thinking & Logical Resoning</td>
+                </tr>
+                <tr>
+                    <td>MATH 121</td><td>Algebra And Trigonometry</td>
+                </tr>
+                <tr>
+                    <td>MATH 123</td><td>Vectors And Geomentory</td>
+                </tr>
+                <tr>
+                    <td>DCIT 101</td><td>Introduction to Computer Science</td>
+                </tr>
+                <tr>
+                    <td>DCIT 103</td><td>Office Productivity tools</td>
+                </tr>
+                <tr>
+                    <td>STAT 111</td><td>Intoduction to Probability</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <th>Second semester</th>
+                </tr>
+                <tr>
+                    <td>UGRC 110</td><td>Academic Writing 1</td>
+                </tr>
+                <tr>
+                    <td>Math 122</td><td>Calculus 1</td>
+                </tr>
+                <tr>
+                    <td>MATH 126</td><td>Matrices </td>
+                <tr>
+                    <td>DCIT 102</td><td>Logical Circuits</td>
+                </tr>
+                <tr>
+                    <td>STAT 112</td><td>Probability 1</td>
+                </tr>
+                <tr>
+                    <td>DCIT 104</td><td>Introduction To Programming</td>
+                </tr>
+
+            </table>
+            </div>
+        </div>
+        <div class="second_content_items" >
+            <h4   onclick="displayTable()" >Level 200</h4>
+            <div id="display_content">
+            <table>
+                <tr>
+                    <th>First semester</th>
+                </tr>
+                <tr>
+                    <td>CBAS 220</td><td>Academic Writing 2</td>
+                </tr>
+                <tr>
+                    <td>DCIT 205</td><td>Multimedia And Web Design</td>
+                </tr>
+                <tr>
+                    <td>DCIT 201</td><td>Programming 1</td>
+                </tr>
+                <tr>
+                    <td>DCIT 203</td><td>Logic And Circuit Design</td>
+                </tr>
+                <tr>
+                    <td>DCIT 207</td><td>Computer Organization And Architecture</td>
+                </tr>
+                <tr>
+                    <td>MATH 223</td><td>Calculus 2</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <th>Second semester</th>
+                </tr>
+                <tr>
+                    <td>UGRC 220</td><td>Intoduction To African Studies</td>
+                </tr>
+                <tr>
+                    <td>DCIT 202</td><td>Mobile Application Development</td>
+                </tr>
+                <tr>
+                    <td>DCIT 204</td><td>Data Structure & Algorithm 1</td>
+                </tr>
+                <tr>
+                    <td>DCIT 206</td><td>System Administration</td>
+                </tr>
+                <tr>
+                    <td>DCIT 212</td><td>Numerical And Computational Methods</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+     </div>
+
+     <script>
+        const trigger = document.querySelector('#display_content');
+        const trig = document.querySelector('#display_content_2');
+        let isClick1 = true;
+        let isClick2 = true;
+        
+        function displayTable(){
+            if(isClick1){
+                trigger.style.display = 'block';
+                isClick1 = false;
+            }else{
+                trigger.style.display = 'none';
+                isClick1 = true;
+            }
+           
+        }
+
+        function displayTable1(){
+            if(isClick2){
+                trig.style.display = 'block';
+                isClick2 = false;
+            }else{
+                trig.style.display = 'none';
+                isClick2 = true;
+            }
+            
+        }
+     </script>
+
+     
+</body>
+
+</html>

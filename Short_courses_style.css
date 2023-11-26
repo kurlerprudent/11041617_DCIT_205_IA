@@ -7,7 +7,7 @@
 .short_course_text{
     position: absolute;
     top: 130px;
-    left: 600px;
+    left: 550px;
     z-index: 1;
 }
 .little_nav_buttons_container{
@@ -30,6 +30,7 @@
 }
 .little_nav_buttons:hover{
     background-color: rgb(220, 203, 112);
+    cursor: pointer;
 }
 .small_text{
     font-family: sans-serif;
