@@ -1,0 +1,13 @@
+
+
+#news_img{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(72, 48, 7);
+    
+}
