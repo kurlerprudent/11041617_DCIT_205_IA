@@ -102,3 +102,48 @@
     background-image: url("web.jpg");
     
 }
+.footer-container{
+    background-color: #3b71ca;
+    width: 83%;
+    display: grid;
+    grid-template-rows: 100px 120px 70px 60px;
+    margin-left: 128px;
+    margin-top: 150px;
+    color: white;
+}
+.footer_container_items{
+    width: 100%;
+}
+#footer_container_items_1{
+   display: grid;
+   grid-template-columns: 100px 100px 100px 100px 100px;
+   column-gap: 60px;
+   padding: 40px;
+   margin-left: 150px;
+}
+#footer_container_items_2{
+    width: 70%;
+    font-size: 21px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 120px;
+}
+
+#footer_container_items_3{
+    width: 30%;
+    padding: 5px;
+    margin-left: 400px;
+}
+
+#images_logo{
+    width: 30px;
+    margin: 15px;
+    
+}
+
+h5{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
