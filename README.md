@@ -45,4 +45,13 @@ n.	Click on the “open in Visual Studio Code “to open the project in the vs c
                ![Alt text](<screenshots/Screenshot 2023-11-26 124749.png>)
                 ![Alt text](<screenshots/Screenshot 2023-11-26 124843.png>)
                  ![Alt text](<screenshots/Screenshot 2023-11-26 124853.png>)
+                 ![Alt text](<screenshots/Screenshot 2023-11-28 062110.png>)
+                 ![Alt text](<screenshots/Screenshot 2023-11-28 062152.png>)
+
+
+
+5. What you have learned from the project.
+   
+This project inspired me to think creatively and like an engineer. I discovered that webpages are composed of various pages, much like book chapters. Every page is divided into smaller parts that precisely fit together, much like a puzzle. It demonstrated to me how tidy and well-organized websites may be, despite their crowded appearance. Realizing this opened my eyes to the creative side of website design.
+
 
